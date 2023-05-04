@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08DD7FF0-F808-5F3B-1643-B2D0FC9458FE" name="Capacitacion">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:08:43 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_capacitacion" id="0DBA7E99-08CC-4902-D25B-A54998BF829E">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:09:33 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_curso" id="B80C3734-78FD-7EED-AED2-3CF1C3EA2E0B">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:10:07 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="1DE0B1D4-C8BD-1F9C-0478-2E478FCCE2FB">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:10:48 UTC</createdTime>
+<comment>El tipo de la capacitacion&lt;br/&gt;&apos;N&apos;:normativa&lt;br/&gt;&apos;F:formativa&apos;</comment>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Acciones" id="267C7DB9-2BEE-240B-2668-DEE054DBFD0A">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:13:37 UTC</createdTime>
+<comment>Describe las actividades del curso</comment>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modalidad" id="49B1DBDE-F2AB-BBF1-034B-4294B87DD555">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:23:32 UTC</createdTime>
+<comment>Modalidad de la capacitacion:&lt;br/&gt;&apos;V&apos;:virtual&lt;br/&gt;&apos;P&apos;:presencial</comment>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mes_inicio" id="838C2B18-52EF-749B-2FAC-C8208B97D2FF">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:24:04 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Norma" id="FFA4CD7B-CBE1-9E7F-F7E8-E3B3318FF2D8">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:27:00 UTC</createdTime>
+<comment>La norma que lo exigue</comment>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estatus" id="ECE44C05-B753-51B5-B17C-72EB48AF8F45">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:27:57 UTC</createdTime>
+<comment>El estado de la capacidad:&lt;br/&gt;&apos;P&apos;: proceso&lt;br/&gt;&apos;T&apos;:terminado&lt;br/&gt;&apos;C&apos;:cancelado&lt;br/&gt;&apos;R&apos;:retrasado&lt;br/&gt;&apos;E&apos;:espera </comment>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8E501114-1D33-97BE-0AFC-8A643DF16F8E" name="Capacitacion PK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:09:55 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0DBA7E99-08CC-4902-D25B-A54998BF829E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
