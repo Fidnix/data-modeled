@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="datam" id="FFC9459B-D069-B35D-1C4D-E3158713F319" version="3.5">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-04 01:11:28 UTC</createdTime>
+<ownerDesignName>datam</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FFC9459B-D069-B35D-1C4D-E3158713F319</designId>
+</OSDM_Design>
