@@ -31,7 +31,9 @@
 <Attribute name="tipo_examen" id="C55097E7-089C-1440-2D7F-8374D205F8DA">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 23:00:44 UTC</createdTime>
-<comment>&apos;empo&apos;: Examen médico pre-ocupacional&lt;br/&gt;&apos;emoa&apos;: Examen médico ocupacional periódico&lt;br/&gt;&apos;emor&apos;: Examen médico de retiro</comment>
+<comment><![CDATA['empo': Examen médico pre-ocupacional
+'emoa': Examen médico ocupacional periódico
+'emor': Examen médico de retiro]]></comment>
 <ownerDesignName>modelos</ownerDesignName>
 <engineerTo>
 <item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
@@ -45,7 +47,9 @@
 <Attribute name="resultado" id="C290E1A1-D0EE-3BD7-DE97-FBF0C3AE96F3">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 23:03:15 UTC</createdTime>
-<comment>&apos;a&apos;: Apto&lt;br/&gt;&apos;r&apos;: Apto con restricciones&lt;br/&gt;&apos;n&apos;: No apto</comment>
+<comment><![CDATA['a': Apto
+'r': Apto con restricciones
+'n': No apto]]></comment>
 <ownerDesignName>modelos</ownerDesignName>
 <engineerTo>
 <item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
@@ -59,7 +63,7 @@
 <Attribute name="Descripcion" id="F1BF5E4B-4EE3-248B-F06A-83A1B302905B">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 23:07:14 UTC</createdTime>
-<comment>Descripcion de la condicion</comment>
+<comment><![CDATA[Descripcion de la condicion]]></comment>
 <ownerDesignName>modelos</ownerDesignName>
 <engineerTo>
 <item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
@@ -83,6 +87,21 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fondo" id="DD154DF9-BD34-9417-35E8-BB15C85A0405">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-05 21:11:32 UTC</createdTime>
+<generatorID>B49F5BE7-E9DE-5F58-60AF-AF0F7D946F58</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<referedAttribute>27374DA7-9EBF-BEF6-4DBC-A296A5A086C1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

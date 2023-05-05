@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4BD72E49-1179-D00F-B130-5BAFDB17DC02" name="Fondo_de_pensiones">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CF88406-5D12-AF36-497E-40623B3B8BE3" name="Encargado_actividades">
 <createdBy>Fidel</createdBy>
-<createdTime>2023-05-04 01:15:28 UTC</createdTime>
+<createdTime>2023-05-05 21:06:21 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
 <engineerTo>
 <item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_fondo" id="3B811C0D-00EC-E1C2-8BD9-08307F11C1D9">
+<Attribute name="id_encargado" id="28C35300-754F-9C77-9973-BFCAADD5ED12">
 <createdBy>Fidel</createdBy>
-<createdTime>2023-05-04 01:15:40 UTC</createdTime>
+<createdTime>2023-05-05 21:06:39 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
 <engineerTo>
 <item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
@@ -28,28 +28,30 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre_fondo" id="00F073F6-6920-D628-F738-16C29959CB72">
+<Attribute name="cod_empleado" id="01BDA801-477E-A8C1-D91D-B9D51F19E5D0">
 <createdBy>Fidel</createdBy>
-<createdTime>2023-05-04 01:15:54 UTC</createdTime>
+<createdTime>2023-05-05 21:08:27 UTC</createdTime>
+<generatorID>25D78B0B-BDDF-7A68-5820-4D48957251AA</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <engineerTo>
 <item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
 </engineerTo>
+<referedAttribute>258E084C-C1B0-5C5D-E74D-008EF3DF2614</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_registro_nomina" id="0BEE8E5F-2D75-EADF-1EFC-C1A1EAD4103E">
+<Attribute name="id_fondo" id="D5919A35-7734-414D-CAAD-020CE00F71DC">
 <createdBy>Fidel</createdBy>
-<createdTime>2023-05-05 21:11:13 UTC</createdTime>
-<generatorID>87B920E7-0930-39FF-78EB-F4C9B8BFACEA</generatorID>
+<createdTime>2023-05-05 21:11:32 UTC</createdTime>
+<generatorID>25D78B0B-BDDF-7A68-5820-4D48957251AA</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <engineerTo>
 <item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
 </engineerTo>
-<referedAttribute>939F1A74-B80A-E654-D192-411A8E5A2D06</referedAttribute>
+<referedAttribute>27374DA7-9EBF-BEF6-4DBC-A296A5A086C1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -58,16 +60,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A801C1B8-223A-F562-8237-C44A157A9ADA" name="Fondo_de_pensiones PK">
+<identifier id="B79C16F6-33F3-866A-EAF0-FB50A58FA843" name="Encargado_actividades PK">
 <createdBy>Fidel</createdBy>
-<createdTime>2023-05-04 01:15:52 UTC</createdTime>
+<createdTime>2023-05-05 21:06:57 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
 <engineerTo>
 <item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>3B811C0D-00EC-E1C2-8BD9-08307F11C1D9</attributeRef>
+<attributeRef>28C35300-754F-9C77-9973-BFCAADD5ED12</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
