@@ -132,7 +132,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_centro_de_costos" id="9C721683-544D-2134-823A-7DB4FCBAE138">
 <createdBy>Fidel</createdBy>
@@ -147,7 +147,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_fondo" id="27374DA7-9EBF-BEF6-4DBC-A296A5A086C1">
 <createdBy>Fidel</createdBy>
@@ -162,7 +162,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_examen_medico" id="3DAF4512-90FB-9EA8-7CF1-D3817D4C8489">
 <createdBy>alulab14</createdBy>
@@ -177,7 +177,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 BYTE</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Vigencia" id="B4E84E2F-C93E-4CBF-4926-D95BC1418B84">
 <createdBy>alulab14</createdBy>
@@ -191,6 +191,21 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_registro_nomina" id="BA0F517D-951C-DE00-EB45-6683973C74E2">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-05 20:53:08 UTC</createdTime>
+<generatorID>CF6F6940-C558-BCFB-8FA1-6BF827E02F00</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<referedAttribute>939F1A74-B80A-E654-D192-411A8E5A2D06</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

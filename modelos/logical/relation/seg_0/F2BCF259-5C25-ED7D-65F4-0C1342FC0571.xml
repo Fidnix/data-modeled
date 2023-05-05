@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EmpleadoXHorario" directorySegmentName="seg_0" id="F2BCF259-5C25-ED7D-65F4-0C1342FC0571">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-05 20:48:44 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>72577268-D901-15F1-EDD0-B3322112149C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>09A5163C-AAA7-52E8-239C-BD44CB14E2A3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

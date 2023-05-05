@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Horario x Marcacion" directorySegmentName="seg_0" id="356A1CEF-5432-E8B8-18B1-39E258F83550">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-05 20:47:08 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E2A08BE4-A64D-457D-B69B-39AA390D16F5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>09A5163C-AAA7-52E8-239C-BD44CB14E2A3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

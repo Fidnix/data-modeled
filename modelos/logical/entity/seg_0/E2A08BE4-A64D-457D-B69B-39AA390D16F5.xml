@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E2A08BE4-A64D-457D-B69B-39AA390D16F5" name="Marcaciones">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E2A08BE4-A64D-457D-B69B-39AA390D16F5" name="Marcacion">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:47:09 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -68,7 +68,11 @@
 <Attribute name="Estado_marcacion" id="81CE0A05-35EE-E16C-416F-3BA3A2EC624F">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:53:27 UTC</createdTime>
-<comment>Indica el estado de marca:&lt;br/&gt;&apos;P&apos;: si la asistencia es puntual&lt;br/&gt;&apos;T&apos;: si la asistencia es tarde&lt;br/&gt;&apos;F&apos;:si faltó&lt;br/&gt;&apos;</comment>
+<comment><![CDATA[Indica el estado de marca:
+'P': si la asistencia es puntual
+'T': si la asistencia es tarde
+'F':si faltó
+']]></comment>
 <ownerDesignName>modelos</ownerDesignName>
 <engineerTo>
 <item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
@@ -79,6 +83,21 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1 BYTE</dataTypeSize>
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_empleado" id="87875FCB-09B8-771F-0845-5EB1CAE32160">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-05 20:47:32 UTC</createdTime>
+<generatorID>540FD250-D93A-055C-C335-C19B5D8E8C9D</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<referedAttribute>258E084C-C1B0-5C5D-E74D-008EF3DF2614</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -92,6 +111,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>EE47895E-5AF8-FF26-503C-3D421F128B11</attributeRef>
+<attributeRef>87875FCB-09B8-771F-0845-5EB1CAE32160</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

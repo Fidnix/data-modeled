@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EmpleadoXAsistencia" directorySegmentName="seg_0" id="CF6F6940-C558-BCFB-8FA1-6BF827E02F00">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-05 20:52:39 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<sourcePk>FC03AD5A-2FF9-1EA2-BDC8-5307E1D1CD77</sourcePk>
+<targetPk>695A29B4-39F5-5B5F-EB12-02DBDD8A34B1</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>72577268-D901-15F1-EDD0-B3322112149C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>869E53E5-E35F-AB82-7893-ADF24959061D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
