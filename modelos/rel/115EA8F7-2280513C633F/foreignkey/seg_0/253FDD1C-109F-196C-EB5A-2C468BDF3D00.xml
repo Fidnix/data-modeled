@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="253FDD1C-109F-196C-EB5A-2C468BDF3D00" containerWithKeyObject="548942B1-4531-6772-2806-111B0483B71E" localFKIndex="D7AEEE2A-50F8-2005-8A37-3DAFD8FEC41B" name="Contrato_plazo_fijo_Contrato_FK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>55FF0EA2-374F-52D0-82E6-B6D6750464A8</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<referredTableLongName>Contrato</referredTableLongName>
+<arc>CF56B4AE-F969-E033-9D89-F0D204519780</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>42907C15-5DE9-8E08-A932-5D1571D4F28C</referredTableID>
+<keyObject>B8657291-9C40-47CF-9639-BFCBDEC33046</keyObject>
+<referredKeyID>B8657291-9C40-47CF-9639-BFCBDEC33046</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_contrato</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D112210-6DCF-E933-9945-8B52F2C80E68" name="Cargo">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>8177A4A2-255B-1154-7D77-B57FAF4FEB54</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cargo" id="EBEBEEE8-BD35-204E-45CD-30243D116151">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>33C3D08A-79BE-7A24-4EDD-7B47E8461C40</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="8E7C3F5C-C511-07BA-218B-29A1B3BF5D29">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>81A9B8D1-0FAB-7229-5D2C-D1590DD17B14</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="27C1DB9B-2622-EC6D-9588-6ECD790126DD">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>58CBF1C2-2B7C-734C-CF99-995E55BEA105</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="min_salario" id="96BD7224-D599-3FB7-9BBE-B91502443331">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>265F1F83-49D1-8CBF-F3BA-24831FDFA2E8</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="max_salario" id="A8812B29-A7F6-4996-6256-28444B752C05">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>2D1C2CAB-4B57-230B-C6A7-6F9609F2C470</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="868B581A-2781-0A37-0020-67CADD0562EF" name="Cargo_PK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>714D7246-6DE9-EFB7-B7BD-A971157A9BEF</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBEBEEE8-BD35-204E-45CD-30243D116151"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

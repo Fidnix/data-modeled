@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Capactiacion x Cargo" directorySegmentName="seg_0" id="B7D4C2B1-B495-B647-80FE-B0F446DF9991">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:27 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>08DD7FF0-F808-5F3B-1643-B2D0FC9458FE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8177A4A2-255B-1154-7D77-B57FAF4FEB54</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

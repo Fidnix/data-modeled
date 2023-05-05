@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="548942B1-4531-6772-2806-111B0483B71E" name="Contrato_plazo_fijo">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>B780327E-F47C-9E6A-8B06-D40BB7DE9E0A</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_contrato" id="F6757846-287B-4856-0CCE-B4B48F8E926E">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>58C7242E-D2F3-D6AC-8065-DD58CCE38691</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="253FDD1C-109F-196C-EB5A-2C468BDF3D00" referredColumn="8EDDDDB7-A076-701F-353A-0E2EC0F38DEA"/>
+</associations>
+</Column>
+<Column name="fecha_fin" id="861230EA-45A1-C6F6-5536-5DB0C0F6133B">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>B3E4CA8E-132F-64B4-06F6-B7C8B4A4C147</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3003196B-BD8A-7FCD-A599-10EF8B52D77E" name="Contrato_plazo_fijo_PK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>A1622215-0DE6-61BE-E836-A3FC3C5F3577</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6757846-287B-4856-0CCE-B4B48F8E926E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7AEEE2A-50F8-2005-8A37-3DAFD8FEC41B" name="Contrato_plazo_fijo_Contrato_FK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>55FF0EA2-374F-52D0-82E6-B6D6750464A8</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6757846-287B-4856-0CCE-B4B48F8E926E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

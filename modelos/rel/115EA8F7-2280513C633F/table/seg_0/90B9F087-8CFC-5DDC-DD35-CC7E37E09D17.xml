@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90B9F087-8CFC-5DDC-DD35-CC7E37E09D17" name="Contrato_plazo_indeterminado">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>EC85C0A5-7FD5-CCD7-B9A2-759AE1B92C18</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_contrato" id="6E20415A-039C-961E-8784-58001F626ADD">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>58C7242E-D2F3-D6AC-8065-DD58CCE38691</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1744C4F-44BF-908E-6A9A-B24BEDB46D89" referredColumn="8EDDDDB7-A076-701F-353A-0E2EC0F38DEA"/>
+</associations>
+</Column>
+<Column name="tipo_contrato" id="C313C8D4-B91D-848E-EA5E-D597EE60D90D">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<commentInRDBMS>&quot;v&quot;: contrato estblecido verbalmente&lt;br/&gt;&quot;n&quot;: contrato estblecido no verbalmente (por escrito)</commentInRDBMS>
+<generatorID>FDF77A4A-945D-B18A-B2EA-6F93A39E3BDC</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C033FFE-E160-06DD-D138-3FDA7E2C4AC9" name="Contrato_plazo_indeterminado_PK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>A1622215-0DE6-61BE-E836-A3FC3C5F3577</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E20415A-039C-961E-8784-58001F626ADD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5CDF02B-1D38-45C3-AA5E-01A13C53F97D" name="Contrato_plazo_indeterminado_Contrato_FK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>5B39D4AA-9307-6519-FAED-9D5DC91C23AA</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E20415A-039C-961E-8784-58001F626ADD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

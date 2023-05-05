@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9C0CB00E-2C20-5BBB-EA83-10E60DE96322" containerWithKeyObject="BCBB67A6-1FF8-BD90-AA36-DD4DCD2E845F" localFKIndex="9069442A-5FD3-BC4C-7CE5-56D1A4369624" name="Capactiacion_x_Cargo_Capacitacion_FK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>B7D4C2B1-B495-B647-80FE-B0F446DF9991</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<referredTableLongName>Capacitacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BEA1B218-6B0F-2EE0-E6F9-AF5A9B40C33C</referredTableID>
+<keyObject>FCE0C78E-0E4C-4D93-CFD4-5EC661A36141</keyObject>
+<referredKeyID>FCE0C78E-0E4C-4D93-CFD4-5EC661A36141</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_capacitacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

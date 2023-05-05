@@ -31,9 +31,7 @@
 <Attribute name="turno_horario" id="103EF1A4-94B0-9A64-ED4E-2B11DD04F1C1">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:18:49 UTC</createdTime>
-<commentInRDBMS><![CDATA["m": mañana
-"t": tarde
-"n": noche]]></commentInRDBMS>
+<commentInRDBMS>&quot;m&quot;: mañana&lt;br/&gt;&quot;t&quot;: tarde&lt;br/&gt;&quot;n&quot;: noche</commentInRDBMS>
 <ownerDesignName>modelos</ownerDesignName>
 <engineerTo>
 <item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
@@ -66,7 +64,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="hora_salida" id="BEE29D2A-89F8-2CC7-4B22-9C6699FF0BC8">
@@ -78,7 +76,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="hora_salida_refrigerio" id="A126819B-71E3-1D20-ADE4-1E2B21654B3D">
@@ -90,7 +88,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="hora_regreso_refrigerio" id="5F05D913-9CD4-3378-E98E-50CE20158631">
@@ -102,7 +100,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

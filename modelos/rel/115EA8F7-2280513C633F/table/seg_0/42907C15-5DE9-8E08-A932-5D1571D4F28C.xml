@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42907C15-5DE9-8E08-A932-5D1571D4F28C" name="Contrato">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>4343763D-C381-8C49-1132-CA452B118AB3</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_contrato" id="8EDDDDB7-A076-701F-353A-0E2EC0F38DEA">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>58C7242E-D2F3-D6AC-8065-DD58CCE38691</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="65675C1C-29ED-855B-C19A-BD38D697C5E2">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>C71B1104-9CBE-BFE0-1CD9-86C28D8DDF22</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vigente" id="A0F8444A-C0E7-3B16-5647-D0523D372A65">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>A3805EB9-A068-A5D9-A573-5A80ED4F2C23</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_cod_empleado" id="5C843761-1B80-008C-E676-DB5AB2173850">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>8C29B009-784C-FB73-94CC-AD47BCDB15F7</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3FA12A7-6CFA-96EA-87BA-F76E073956F3" referredColumn="F7312891-C604-1C1A-2104-768E25CABB79"/>
+</associations>
+</Column>
+<Column name="Empleado_id_cargo" id="E0D9AE79-CBAE-2DED-5BBF-505CE8065643">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>C921AA8C-C6BE-B77B-937B-5D231E0E3217</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3FA12A7-6CFA-96EA-87BA-F76E073956F3" referredColumn="9C8D6CB3-1064-9319-280D-F39B3235D43E"/>
+</associations>
+</Column>
+<Column name="Empleado_Centro_de_costos_id_centro_de_costos" id="9F5516FB-B89F-5F9D-D682-3D0A7725E4AC">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>296BF70B-7CF0-8137-020C-59EC74DA6883</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3FA12A7-6CFA-96EA-87BA-F76E073956F3" referredColumn="5C429213-06CF-CCC9-7C18-4079754F0835"/>
+</associations>
+</Column>
+<Column name="Empleado_Fondo_de_pensiones_id_fondo" id="69B857F2-F3DA-386A-032C-1181096776A1">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>F91CAE50-45DE-972B-E9CC-8A9648AF34EA</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3FA12A7-6CFA-96EA-87BA-F76E073956F3" referredColumn="A7F7E08A-5A56-9885-A83B-1416D2BAC1F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8657291-9C40-47CF-9639-BFCBDEC33046" name="Contrato_PK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>A1622215-0DE6-61BE-E836-A3FC3C5F3577</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EDDDDB7-A076-701F-353A-0E2EC0F38DEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A6BCDCA-EF98-9686-D2C1-B60755A7E778" name="Contrato__IDX">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:50 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>49B19AF0-17B9-1F67-1C0E-1C01684A443D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5C843761-1B80-008C-E676-DB5AB2173850"/>
+<colUsage columnID="E0D9AE79-CBAE-2DED-5BBF-505CE8065643"/>
+<colUsage columnID="9F5516FB-B89F-5F9D-D682-3D0A7725E4AC"/>
+<colUsage columnID="69B857F2-F3DA-386A-032C-1181096776A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DCA0836-7975-5DAD-EA21-2CE17704CF84" name="Contrato_Empleado_FK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>49B19AF0-17B9-1F67-1C0E-1C01684A443D</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C843761-1B80-008C-E676-DB5AB2173850"/>
+<colUsage columnID="E0D9AE79-CBAE-2DED-5BBF-505CE8065643"/>
+<colUsage columnID="9F5516FB-B89F-5F9D-D682-3D0A7725E4AC"/>
+<colUsage columnID="69B857F2-F3DA-386A-032C-1181096776A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

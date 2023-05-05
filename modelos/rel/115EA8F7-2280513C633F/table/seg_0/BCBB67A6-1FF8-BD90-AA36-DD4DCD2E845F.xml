@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCBB67A6-1FF8-BD90-AA36-DD4DCD2E845F" name="Capactiacion_x_Cargo">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Capacitacion_id_capacitacion" id="8A312022-4B14-226F-2DAE-4E760BDBAB60">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C0CB00E-2C20-5BBB-EA83-10E60DE96322" referredColumn="9C17313B-7C7C-5A65-6FCC-64C38334FC4C"/>
+</associations>
+</Column>
+<Column name="Cargo_id_cargo" id="5A0E8C56-FCD1-D90E-9E47-9FC7521E6441">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E5297CB-05C4-6DEF-8665-AD0878CA4BB5" referredColumn="EBEBEEE8-BD35-204E-45CD-30243D116151"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A95FB197-CE42-7E79-3CD1-354030DC4EF0" name="Capactiacion_x_Cargo_PK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A312022-4B14-226F-2DAE-4E760BDBAB60"/>
+<colUsage columnID="5A0E8C56-FCD1-D90E-9E47-9FC7521E6441"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9069442A-5FD3-BC4C-7CE5-56D1A4369624" name="Capactiacion_x_Cargo_Capacitacion_FK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>B7D4C2B1-B495-B647-80FE-B0F446DF9991</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A312022-4B14-226F-2DAE-4E760BDBAB60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="558440D9-9A3A-437F-081F-8D9CC45B0B9B" name="Capactiacion_x_Cargo_Cargo_FK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<generatorID>B7D4C2B1-B495-B647-80FE-B0F446DF9991</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A0E8C56-FCD1-D90E-9E47-9FC7521E6441"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
