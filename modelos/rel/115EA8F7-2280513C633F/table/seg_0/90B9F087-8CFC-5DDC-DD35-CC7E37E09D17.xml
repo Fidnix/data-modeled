@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90B9F087-8CFC-5DDC-DD35-CC7E37E09D17" name="Contrato_plazo_indeterminado">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90B9F087-8CFC-5DDC-DD35-CC7E37E09D17" name="P_Contrato_plazo_indeterminado">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
 <generatorID>EC85C0A5-7FD5-CCD7-B9A2-759AE1B92C18</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
+<ordsAlias>contrato_plazo_indeterminado</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -17,7 +18,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="C1744C4F-44BF-908E-6A9A-B24BEDB46D89" referredColumn="8EDDDDB7-A076-701F-353A-0E2EC0F38DEA"/>
@@ -33,7 +34,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C71CACE7-D436-F44C-65C7-04979A12CCC0" name="Horario">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C71CACE7-D436-F44C-65C7-04979A12CCC0" name="P_Horario">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
 <generatorID>09A5163C-AAA7-52E8-239C-BD44CB14E2A3</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
+<ordsAlias>horario</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -23,7 +24,9 @@
 <Column name="turno_horario" id="AD31B966-1F1A-F0E9-87E6-B9A8FB3ECF97">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
-<commentInRDBMS>&quot;m&quot;: mañana&lt;br/&gt;&quot;t&quot;: tarde&lt;br/&gt;&quot;n&quot;: noche</commentInRDBMS>
+<commentInRDBMS><![CDATA["m": mañana
+"t": tarde
+"n": noche]]></commentInRDBMS>
 <generatorID>103EF1A4-94B0-9A64-ED4E-2B11DD04F1C1</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

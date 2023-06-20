@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42907C15-5DE9-8E08-A932-5D1571D4F28C" name="Contrato">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42907C15-5DE9-8E08-A932-5D1571D4F28C" name="P_Contrato">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
 <generatorID>4343763D-C381-8C49-1132-CA452B118AB3</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
+<ordsAlias>contrato</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -51,7 +52,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
+<dataTypeSize>10 BYTE</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -99,17 +100,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8EDDDDB7-A076-701F-353A-0E2EC0F38DEA"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="2A6BCDCA-EF98-9686-D2C1-B60755A7E778" name="Contrato__IDX">
-<createdBy>alulab14</createdBy>
-<createdTime>2023-05-04 22:41:50 UTC</createdTime>
-<ownerDesignName>modelos</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>49B19AF0-17B9-1F67-1C0E-1C01684A443D</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="C9433A99-88DC-6E12-069E-1643CCECEC49"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="18494E81-181C-151C-2A1A-238FB6D2B378" name="cont_Empleado_FK">

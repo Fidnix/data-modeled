@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA19A065-004C-FA7D-9DA8-7F37B4A2EE0B" name="Documento_Identidad">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA19A065-004C-FA7D-9DA8-7F37B4A2EE0B" name="P_Documento_Identidad">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-05 23:20:52 UTC</createdTime>
 <generatorID>99636195-60AF-F4B9-5D1A-BDF12587AEDE</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
+<ordsAlias>documento_identidad</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -22,13 +23,15 @@
 <Column name="tipo_documento" id="68848739-47E0-BFF4-9614-72F44D0159A2">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<commentInRDBMS><![CDATA['n': Documento nacional de identidad
+'e': Carnet de extranjeria]]></commentInRDBMS>
 <generatorID>3C278998-CEE5-6F51-9BAB-6E2668C3974A</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 BYTE</dataTypeSize>
-<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

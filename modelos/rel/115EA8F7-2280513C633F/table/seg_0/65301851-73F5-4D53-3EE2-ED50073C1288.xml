@@ -1,8 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65301851-73F5-4D53-3EE2-ED50073C1288" name="EmpleadoXActividad">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65301851-73F5-4D53-3EE2-ED50073C1288" name="P_EmpleadoXActividad">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-05 23:20:52 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
+<ordsAlias>empleadoxactividad</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -14,7 +15,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
+<dataTypeSize>10 BYTE</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>

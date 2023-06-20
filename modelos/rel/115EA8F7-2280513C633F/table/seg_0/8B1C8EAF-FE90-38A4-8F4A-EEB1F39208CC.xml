@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B1C8EAF-FE90-38A4-8F4A-EEB1F39208CC" name="Examen_medico">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B1C8EAF-FE90-38A4-8F4A-EEB1F39208CC" name="P_Examen_medico">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-05 23:20:52 UTC</createdTime>
 <generatorID>5174C1B6-AFA3-6B75-C9B3-FD488DC9ABC5</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
+<ordsAlias>examen_medico</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

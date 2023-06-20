@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FD871BB-C69F-5868-8D12-DB0ECAA13D2A" name="Registro_Nomina">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FD871BB-C69F-5868-8D12-DB0ECAA13D2A" name="P_Registro_Nomina">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-05 23:20:52 UTC</createdTime>
 <generatorID>869E53E5-E35F-AB82-7893-ADF24959061D</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
+<ordsAlias>registro_nomina</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -28,8 +29,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cuenta_bancaria" id="EF4D5877-B513-37FD-7951-D85954D7D0BF">
@@ -40,8 +41,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="horas_trabajadas" id="78A02C8B-AF49-7BBD-FFF8-F53C16D49213">
@@ -88,7 +89,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
+<dataTypeSize>10 BYTE</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -135,17 +136,6 @@
 <relationGeneratorID>CF6F6940-C558-BCFB-8FA1-6BF827E02F00</relationGeneratorID>
 <indexColumnUsage>
 <colUsage columnID="74A3E998-BA12-42B9-9407-F04DFFA34731"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="A0B9207B-CCAC-51DD-4330-22CDE1EF0B32" name="Registro_Nomina__IDX">
-<createdBy>Fidel</createdBy>
-<createdTime>2023-05-08 00:09:09 UTC</createdTime>
-<ownerDesignName>modelos</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>87B920E7-0930-39FF-78EB-F4C9B8BFACEA</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="E155F2DD-08CE-110C-C8CA-0B00C98844CA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="4DE133BD-4594-09B5-9DBF-7423E4EDAA4D" name="nom_pensiones_FK">

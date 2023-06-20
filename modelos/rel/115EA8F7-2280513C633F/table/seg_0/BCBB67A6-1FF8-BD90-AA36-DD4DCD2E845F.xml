@@ -1,8 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCBB67A6-1FF8-BD90-AA36-DD4DCD2E845F" name="Capacitacion_x_Cargo">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCBB67A6-1FF8-BD90-AA36-DD4DCD2E845F" name="P_Capacitacion_x_Cargo">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
+<ordsAlias>capacitacion_x_cargo</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
