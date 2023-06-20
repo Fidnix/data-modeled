@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB51FECF-EDA6-776D-8465-EA28A3BA67F0" name="Encargado_actividades">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>8CF88406-5D12-AF36-497E-40623B3B8BE3</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_encargado" id="168852DD-B9FD-FB0F-CFF5-7BE4DE6C7256">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>28C35300-754F-9C77-9973-BFCAADD5ED12</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_empleado" id="07A309E5-88DC-E9E2-2113-3A938A7DF3EA">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>01BDA801-477E-A8C1-D91D-B9D51F19E5D0</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AD1562E-7113-683A-8C51-35A560DFCB6E" referredColumn="F7312891-C604-1C1A-2104-768E25CABB79"/>
+</associations>
+</Column>
+<Column name="id_actividad" id="933B0121-4F3E-9748-4E54-D1DE6995F47A">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-07 23:59:32 UTC</createdTime>
+<generatorID>6B274BFC-4F75-235F-0913-46F0D5F7DA98</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6917DF80-9710-4311-0983-F5C1E2EA01DD" referredColumn="FCC1DEC0-BED9-CDE1-40C5-A13689C37D67"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0E397DE-AF9F-085B-DA29-1311A7E32508" name="Encargado_actividades_PK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>B79C16F6-33F3-866A-EAF0-FB50A58FA843</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="168852DD-B9FD-FB0F-CFF5-7BE4DE6C7256"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F653CAC-045E-DFCC-FC56-AD2CFAFF3ACF" name="Encargado_actividades__IDX">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>25D78B0B-BDDF-7A68-5820-4D48957251AA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="07A309E5-88DC-E9E2-2113-3A938A7DF3EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C21C63B6-52A3-7B32-C826-0EBDEA268FA7" name="enc_empleado_FK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>25D78B0B-BDDF-7A68-5820-4D48957251AA</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07A309E5-88DC-E9E2-2113-3A938A7DF3EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E6FBE48-975A-A370-84E0-39BE3AA2A1BC" name="enc_actividad_FK">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-07 23:59:32 UTC</createdTime>
+<generatorID>24F1D38D-0EBE-93FC-608A-BA70908D765F</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="933B0121-4F3E-9748-4E54-D1DE6995F47A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

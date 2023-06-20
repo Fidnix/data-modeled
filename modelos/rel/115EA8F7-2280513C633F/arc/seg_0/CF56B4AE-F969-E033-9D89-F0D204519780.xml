@@ -1,11 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="CF56B4AE-F969-E033-9D89-F0D204519780" name="FKArc_1">
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="CF56B4AE-F969-E033-9D89-F0D204519780" name="arc_tipo_contrato">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
-<mandatory>false</mandatory>
+<mandatory>true</mandatory>
 <reverseArc>true</reverseArc>
 <table>42907C15-5DE9-8E08-A932-5D1571D4F28C</table>
+<discriminatorColumn>B3B4C186-0B7E-AEE0-F7E7-B32FA079463F</discriminatorColumn>
 <fkeys>
 <fkeyID>253FDD1C-109F-196C-EB5A-2C468BDF3D00</fkeyID>
 <fkeyID>C1744C4F-44BF-908E-6A9A-B24BEDB46D89</fkeyID>

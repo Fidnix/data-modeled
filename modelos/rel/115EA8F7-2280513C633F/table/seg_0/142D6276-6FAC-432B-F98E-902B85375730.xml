@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="142D6276-6FAC-432B-F98E-902B85375730" name="Marcacion">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>E2A08BE4-A64D-457D-B69B-39AA390D16F5</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_marcaciones" id="97D12B13-AFB1-C5DB-1327-E512B2B07AFF">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>EE47895E-5AF8-FF26-503C-3D421F128B11</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_Marcacion" id="71653353-932D-AA4B-98FC-08DB887EB151">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>A334C1F7-FA46-AF8C-FBA1-D6139A1C622D</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_marcacion" id="3B4167A4-8808-B0FD-ADA8-7103B3DAF334">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>73B6FADF-6AB7-29F9-15DB-6E4E4D5D3D4D</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_marcacion" id="66E40448-1C93-43FE-849B-9A76876900C1">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<commentInRDBMS><![CDATA['E': Entrada
+'S':  Salida
+'F': Salida a refrigerio
+'R': Regreso de refrigerio]]></commentInRDBMS>
+<generatorID>A4DD151C-D3A9-F43C-216D-CE95D8D44C3F</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado_marcacion" id="D664438A-315F-BF98-E8AD-B9AF5404E0AF">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<comment><![CDATA[Indica el estado de marca:
+'P': si la asistencia es puntual
+'T': si la asistencia es tarde
+'F':si faltó
+']]></comment>
+<commentInRDBMS><![CDATA['p': Puntual
+'t': Tarde
+'f': Falta]]></commentInRDBMS>
+<generatorID>81CE0A05-35EE-E16C-416F-3BA3A2EC624F</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_empleado" id="85F82F30-EE39-9BAA-1A8B-1D8D3404B32E">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>87875FCB-09B8-771F-0845-5EB1CAE32160</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9D2422C-95AB-B31E-D26B-A956AB992080" referredColumn="F7312891-C604-1C1A-2104-768E25CABB79"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E044D229-719C-E38C-9D5A-889C78E5B3C3" name="Marcacion_PK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>9805DB83-7148-3010-C7BB-D33D7CAEFBA7</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97D12B13-AFB1-C5DB-1327-E512B2B07AFF"/>
+<colUsage columnID="85F82F30-EE39-9BAA-1A8B-1D8D3404B32E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F7E5AA5-88FD-E818-ED6C-D983AC79C0B4" name="marc_empleado_FK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>540FD250-D93A-055C-C335-C19B5D8E8C9D</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85F82F30-EE39-9BAA-1A8B-1D8D3404B32E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

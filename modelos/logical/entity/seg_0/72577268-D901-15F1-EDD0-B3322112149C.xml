@@ -164,21 +164,6 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_examen_medico" id="3DAF4512-90FB-9EA8-7CF1-D3817D4C8489">
-<createdBy>alulab14</createdBy>
-<createdTime>2023-05-04 23:16:12 UTC</createdTime>
-<generatorID>B49F5BE7-E9DE-5F58-60AF-AF0F7D946F58</generatorID>
-<ownerDesignName>modelos</ownerDesignName>
-<engineerTo>
-<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
-</engineerTo>
-<referedAttribute>5F613293-4225-EF21-2568-59E43E4C8665</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 BYTE</dataTypeSize>
-<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Vigencia" id="B4E84E2F-C93E-4CBF-4926-D95BC1418B84">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 23:36:12 UTC</createdTime>
@@ -207,19 +192,63 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="num_doc_identidad" id="CD1F4DD7-CF5B-C2A4-DD3C-173A1A94E220">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:34:07 UTC</createdTime>
+<generatorID>5F225231-9375-E9B5-8D4C-75DED9289228</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<referedAttribute>C307014C-4038-FDF0-ED71-47F1D9223186</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_contrato" id="978F49CC-BAB5-27B3-59E4-73B82E06FA9E">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-07 23:37:08 UTC</createdTime>
+<generatorID>49B19AF0-17B9-1F67-1C0E-1C01684A443D</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<referedAttribute>58C7242E-D2F3-D6AC-8065-DD58CCE38691</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_examen_medico" id="BBEC06F3-3CB6-A248-FE31-B65EB09F8BD7">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-08 00:03:09 UTC</createdTime>
+<generatorID>6626F11E-4C05-99B2-A88B-B29F2EFA9B75</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<referedAttribute>5F613293-4225-EF21-2568-59E43E4C8665</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="FC03AD5A-2FF9-1EA2-BDC8-5307E1D1CD77" name="Empleado PK">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:08:35 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>258E084C-C1B0-5C5D-E74D-008EF3DF2614</attributeRef>
-<attributeRef>27374DA7-9EBF-BEF6-4DBC-A296A5A086C1</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

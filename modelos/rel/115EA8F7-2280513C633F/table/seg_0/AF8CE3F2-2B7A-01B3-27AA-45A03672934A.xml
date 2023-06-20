@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="cod_empleado" id="F7312891-C604-1C1A-2104-768E25CABB79">
+<Column name="id_empleado" id="F7312891-C604-1C1A-2104-768E25CABB79">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
 <generatorID>258E084C-C1B0-5C5D-E74D-008EF3DF2614</generatorID>
@@ -104,7 +104,7 @@
 <ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Cargo_id_cargo" id="9C8D6CB3-1064-9319-280D-F39B3235D43E">
+<Column name="id_cargo" id="9C8D6CB3-1064-9319-280D-F39B3235D43E">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
 <generatorID>64C00FEE-921B-3CBC-69ED-B724CD08DA8C</generatorID>
@@ -120,7 +120,7 @@
 <colAssociation fkAssociation="E39B8530-5F1E-B8F9-4ABF-1C851B769F45" referredColumn="EBEBEEE8-BD35-204E-45CD-30243D116151"/>
 </associations>
 </Column>
-<Column name="Centro_de_costos_id_centro_de_costos" id="5C429213-06CF-CCC9-7C18-4079754F0835">
+<Column name="id_centro_de_costos" id="5C429213-06CF-CCC9-7C18-4079754F0835">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
 <generatorID>9C721683-544D-2134-823A-7DB4FCBAE138</generatorID>
@@ -136,7 +136,7 @@
 <colAssociation fkAssociation="BFAD29C2-DFE0-A5FE-6BF1-5235F281820A" referredColumn="65798D35-4D71-498B-E8A7-33A289A1C339"/>
 </associations>
 </Column>
-<Column name="Fondo_de_pensiones_id_fondo" id="A7F7E08A-5A56-9885-A83B-1416D2BAC1F7">
+<Column name="id_fondo" id="A7F7E08A-5A56-9885-A83B-1416D2BAC1F7">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
 <generatorID>27374DA7-9EBF-BEF6-4DBC-A296A5A086C1</generatorID>
@@ -152,20 +152,47 @@
 <colAssociation fkAssociation="EC0A98F4-EA66-DD68-D489-1888A6FD80E6" referredColumn="2E00D102-BDF8-E08A-AD75-59E38A25BBFD"/>
 </associations>
 </Column>
-<Column name="Contrato_id_contrato" id="0D6F1CD4-02C4-E073-BA54-19AC702F8090">
+<Column name="id_examen_medico" id="F4FF8917-20C7-C26D-20BD-DCE863570E9B">
 <createdBy>alulab14</createdBy>
-<createdTime>2023-05-04 22:41:49 UTC</createdTime>
-<generatorID>6BCF15F5-DB51-E3C6-A0B6-6976E1047FA6</generatorID>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>3DAF4512-90FB-9EA8-7CF1-D3817D4C8489</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="28D29C02-4E98-79A1-3250-5EE70FBBAEF8" referredColumn="8EDDDDB7-A076-701F-353A-0E2EC0F38DEA"/>
+<colAssociation fkAssociation="9C5E068F-854F-54E6-1D0C-8E32A8BFB230" referredColumn="BAC3179B-B3B4-31F4-6AE7-C107B3DF5861"/>
+</associations>
+</Column>
+<Column name="Vigencia" id="417D5BC7-9A66-D7D2-2302-053A899B50C3">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>B4E84E2F-C93E-4CBF-4926-D95BC1418B84</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_doc_identidad" id="1727F3AE-846D-AC91-F737-107F23E480A2">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-07 23:59:32 UTC</createdTime>
+<generatorID>CD1F4DD7-CF5B-C2A4-DD3C-173A1A94E220</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D287C7A-36C3-E189-53E4-A940F5FFC62D" referredColumn="6E162F34-6FF7-B07D-17C7-52EDC90B209C"/>
 </associations>
 </Column>
 </columns>
@@ -180,23 +207,20 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F7312891-C604-1C1A-2104-768E25CABB79"/>
-<colUsage columnID="9C8D6CB3-1064-9319-280D-F39B3235D43E"/>
-<colUsage columnID="5C429213-06CF-CCC9-7C18-4079754F0835"/>
-<colUsage columnID="A7F7E08A-5A56-9885-A83B-1416D2BAC1F7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="21F23188-A737-E205-E736-56DC8BB2ABD0" name="Empleado__IDX">
+<ind_PK_UK id="36DEFA6F-E052-77BC-E71F-766BE9B611B7" name="Empleado__IDX">
 <createdBy>alulab14</createdBy>
-<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>49B19AF0-17B9-1F67-1C0E-1C01684A443D</relationGeneratorID>
+<relationGeneratorID>CF6F6940-C558-BCFB-8FA1-6BF827E02F00</relationGeneratorID>
 <indexColumnUsage>
-<colUsage columnID="0D6F1CD4-02C4-E073-BA54-19AC702F8090"/>
+<colUsage columnID="1727F3AE-846D-AC91-F737-107F23E480A2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5CD780DA-8719-DFCD-D52B-836F2A7BB844" name="Empleado_Fondo_de_pensiones_FK">
+<ind_PK_UK id="5CD780DA-8719-DFCD-D52B-836F2A7BB844" name="emp_pensiones_FK">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
 <generatorID>35B4263B-C31A-3494-B9B2-B0BE09314EB3</generatorID>
@@ -207,7 +231,7 @@
 <colUsage columnID="A7F7E08A-5A56-9885-A83B-1416D2BAC1F7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EE3F2E8F-4F8E-84CE-B366-F4449C513E2B" name="Empleado_Centro_de_costos_FK">
+<ind_PK_UK id="EE3F2E8F-4F8E-84CE-B366-F4449C513E2B" name="emp_centro_de_costos_FK">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
 <generatorID>8F249AAF-BE68-91B1-BC55-D07833AD2120</generatorID>
@@ -218,18 +242,7 @@
 <colUsage columnID="5C429213-06CF-CCC9-7C18-4079754F0835"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C720E917-E4C0-7E07-E3C5-99A757F92164" name="Empleado_Contrato_FK">
-<createdBy>alulab14</createdBy>
-<createdTime>2023-05-04 22:41:49 UTC</createdTime>
-<generatorID>49B19AF0-17B9-1F67-1C0E-1C01684A443D</generatorID>
-<ownerDesignName>modelos</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="0D6F1CD4-02C4-E073-BA54-19AC702F8090"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="C9D8993A-7E86-DF73-DDD2-C33BB01011E6" name="Empleado_Cargo_FK">
+<ind_PK_UK id="C9D8993A-7E86-DF73-DDD2-C33BB01011E6" name="emp_cargo_FK">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:50 UTC</createdTime>
 <generatorID>F569FE44-4B72-5472-E303-1441003A839F</generatorID>
@@ -238,6 +251,28 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9C8D6CB3-1064-9319-280D-F39B3235D43E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="766EB4AB-0AAB-9537-25C7-6AF1C3E32198" name="emp_examen_medico_FK">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-08 00:24:36 UTC</createdTime>
+<generatorID>7DD6D76F-53A4-6B27-784C-903EFF1117AB</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4FF8917-20C7-C26D-20BD-DCE863570E9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9ABCCB2A-80D2-FA57-F742-4B86D18395BF" name="emp_doc_id_FK">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-06-17 22:18:28 UTC</createdTime>
+<generatorID>3619501A-A953-92CF-6706-1230C0C6EF1E</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1727F3AE-846D-AC91-F737-107F23E480A2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

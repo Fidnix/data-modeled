@@ -60,6 +60,19 @@
 <dataTypeSize>1 BYTE</dataTypeSize>
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="fecha_fin" id="8516FBE6-5403-9A46-A500-498AE1A0079E">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-06-17 21:40:51 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Descripcion" id="F1BF5E4B-4EE3-248B-F06A-83A1B302905B">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 23:07:14 UTC</createdTime>
@@ -74,10 +87,10 @@
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cod_empleado" id="119ED2A6-50EE-33C6-BED0-3152DD081BE4">
-<createdBy>alulab14</createdBy>
-<createdTime>2023-05-04 23:12:18 UTC</createdTime>
-<generatorID>B49F5BE7-E9DE-5F58-60AF-AF0F7D946F58</generatorID>
+<Attribute name="cod_empleado" id="B5FBEA45-2AC3-CC98-9791-E0F604E8C6B9">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-08 00:03:35 UTC</createdTime>
+<generatorID>6626F11E-4C05-99B2-A88B-B29F2EFA9B75</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <engineerTo>
 <item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
@@ -89,29 +102,15 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_fondo" id="DD154DF9-BD34-9417-35E8-BB15C85A0405">
-<createdBy>Fidel</createdBy>
-<createdTime>2023-05-05 21:11:32 UTC</createdTime>
-<generatorID>B49F5BE7-E9DE-5F58-60AF-AF0F7D946F58</generatorID>
-<ownerDesignName>modelos</ownerDesignName>
-<engineerTo>
-<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
-</engineerTo>
-<referedAttribute>27374DA7-9EBF-BEF6-4DBC-A296A5A086C1</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="7DD6D76F-53A4-6B27-784C-903EFF1117AB" name="Examen_medico PK">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 23:00:43 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

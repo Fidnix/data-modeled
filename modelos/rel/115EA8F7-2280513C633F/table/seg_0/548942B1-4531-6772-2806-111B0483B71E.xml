@@ -17,7 +17,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="253FDD1C-109F-196C-EB5A-2C468BDF3D00" referredColumn="8EDDDDB7-A076-701F-353A-0E2EC0F38DEA"/>
@@ -48,7 +48,7 @@
 <colUsage columnID="F6757846-287B-4856-0CCE-B4B48F8E926E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D7AEEE2A-50F8-2005-8A37-3DAFD8FEC41B" name="Contrato_plazo_fijo_Contrato_FK">
+<ind_PK_UK id="D7AEEE2A-50F8-2005-8A37-3DAFD8FEC41B" name="CPFIJO_Contrato_FK">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
 <generatorID>55FF0EA2-374F-52D0-82E6-B6D6750464A8</generatorID>

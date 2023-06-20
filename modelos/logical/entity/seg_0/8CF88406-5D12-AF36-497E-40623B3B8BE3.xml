@@ -41,17 +41,17 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_fondo" id="D5919A35-7734-414D-CAAD-020CE00F71DC">
-<createdBy>Fidel</createdBy>
-<createdTime>2023-05-05 21:11:32 UTC</createdTime>
-<generatorID>25D78B0B-BDDF-7A68-5820-4D48957251AA</generatorID>
+<Attribute name="id_actividad" id="6B274BFC-4F75-235F-0913-46F0D5F7DA98">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:44:29 UTC</createdTime>
+<generatorID>24F1D38D-0EBE-93FC-608A-BA70908D765F</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <engineerTo>
 <item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
 </engineerTo>
-<referedAttribute>27374DA7-9EBF-BEF6-4DBC-A296A5A086C1</referedAttribute>
+<referedAttribute>541F5049-860E-FA1C-B45F-348B354453FC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

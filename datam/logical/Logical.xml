@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="24D06E81-2D16-73F8-65CE-DEBA26FFB80F" mainViewID="BCA5C0C3-D06D-062E-CEF9-9DB95BDE2F1C">
-<createdBy>Fidel</createdBy>
-<createdTime>2023-05-04 01:11:28 UTC</createdTime>
-<ownerDesignName>datam</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>

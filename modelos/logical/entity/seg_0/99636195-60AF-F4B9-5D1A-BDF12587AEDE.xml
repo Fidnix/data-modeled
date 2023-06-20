@@ -55,21 +55,6 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_fondo" id="9CAF7216-AC88-93E1-8D52-89F0FC66718F">
-<createdBy>Fidel</createdBy>
-<createdTime>2023-05-05 21:11:32 UTC</createdTime>
-<generatorID>5F225231-9375-E9B5-8D4C-75DED9289228</generatorID>
-<ownerDesignName>modelos</ownerDesignName>
-<engineerTo>
-<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
-</engineerTo>
-<referedAttribute>27374DA7-9EBF-BEF6-4DBC-A296A5A086C1</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="3619501A-A953-92CF-6706-1230C0C6EF1E" name="Documento_Identidad PK">
@@ -82,8 +67,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>C307014C-4038-FDF0-ED71-47F1D9223186</attributeRef>
-<attributeRef>0CE5A1BD-2816-7151-3AAC-232004E68674</attributeRef>
-<attributeRef>9CAF7216-AC88-93E1-8D52-89F0FC66718F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

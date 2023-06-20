@@ -1,30 +1,30 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCBB67A6-1FF8-BD90-AA36-DD4DCD2E845F" name="Capacitacion_x_Cargo">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65301851-73F5-4D53-3EE2-ED50073C1288" name="EmpleadoXActividad">
 <createdBy>alulab14</createdBy>
-<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_capacitacion" id="8A312022-4B14-226F-2DAE-4E760BDBAB60">
+<Column name="id_empleado" id="A4890B6B-59C7-10DD-F2EB-BFAC28FAEFDA">
 <createdBy>alulab14</createdBy>
-<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 BYTE</dataTypeSize>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="9C0CB00E-2C20-5BBB-EA83-10E60DE96322" referredColumn="9C17313B-7C7C-5A65-6FCC-64C38334FC4C"/>
+<colAssociation fkAssociation="1A1B6BA7-095A-EB7A-599B-CA24D5547A07" referredColumn="F7312891-C604-1C1A-2104-768E25CABB79"/>
 </associations>
 </Column>
-<Column name="id_cargo" id="5A0E8C56-FCD1-D90E-9E47-9FC7521E6441">
+<Column name="id_actividad" id="C9DCEDC3-5166-A0E6-6512-E2116FAE50EA">
 <createdBy>alulab14</createdBy>
-<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,43 +34,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4E5297CB-05C4-6DEF-8665-AD0878CA4BB5" referredColumn="EBEBEEE8-BD35-204E-45CD-30243D116151"/>
+<colAssociation fkAssociation="67172BD3-EF3F-C10D-17BE-C243896A2564" referredColumn="FCC1DEC0-BED9-CDE1-40C5-A13689C37D67"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A95FB197-CE42-7E79-3CD1-354030DC4EF0" name="Capactiacion_x_Cargo_PK">
+<ind_PK_UK id="118A8CD5-4A74-5FC1-76D2-FBCF98F03CC8" name="EmpleadoXActividad_PK">
 <createdBy>alulab14</createdBy>
-<createdTime>2023-05-04 22:41:49 UTC</createdTime>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8A312022-4B14-226F-2DAE-4E760BDBAB60"/>
-<colUsage columnID="5A0E8C56-FCD1-D90E-9E47-9FC7521E6441"/>
+<colUsage columnID="A4890B6B-59C7-10DD-F2EB-BFAC28FAEFDA"/>
+<colUsage columnID="C9DCEDC3-5166-A0E6-6512-E2116FAE50EA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9069442A-5FD3-BC4C-7CE5-56D1A4369624" name="CC_capacitacion_FK">
+<ind_PK_UK id="22E1A23C-8EBC-4895-07E0-80235E4408FF" name="EA_empleado_FK">
 <createdBy>alulab14</createdBy>
-<createdTime>2023-05-04 22:41:49 UTC</createdTime>
-<generatorID>B7D4C2B1-B495-B647-80FE-B0F446DF9991</generatorID>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>EBA0D5D6-57F5-F4CB-EAC5-A1262554A72C</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8A312022-4B14-226F-2DAE-4E760BDBAB60"/>
+<colUsage columnID="A4890B6B-59C7-10DD-F2EB-BFAC28FAEFDA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="558440D9-9A3A-437F-081F-8D9CC45B0B9B" name="CC_cargo_FK">
+<ind_PK_UK id="76F03060-E981-660B-6C55-8100227B9A15" name="EA_actividad_FK">
 <createdBy>alulab14</createdBy>
-<createdTime>2023-05-04 22:41:49 UTC</createdTime>
-<generatorID>B7D4C2B1-B495-B647-80FE-B0F446DF9991</generatorID>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>EBA0D5D6-57F5-F4CB-EAC5-A1262554A72C</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5A0E8C56-FCD1-D90E-9E47-9FC7521E6441"/>
+<colUsage columnID="C9DCEDC3-5166-A0E6-6512-E2116FAE50EA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

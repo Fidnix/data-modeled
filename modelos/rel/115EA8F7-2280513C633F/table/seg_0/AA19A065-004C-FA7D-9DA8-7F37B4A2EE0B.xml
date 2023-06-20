@@ -1,29 +1,28 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE67D89C-9B32-FAAE-C77C-28005B8366DB" name="Centro_de_costos">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA19A065-004C-FA7D-9DA8-7F37B4A2EE0B" name="Documento_Identidad">
 <createdBy>alulab14</createdBy>
-<createdTime>2023-05-04 22:41:49 UTC</createdTime>
-<generatorID>1973C5B8-C531-89A4-0BD1-88F7E1DE01F8</generatorID>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>99636195-60AF-F4B9-5D1A-BDF12587AEDE</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_centro_de_costos" id="65798D35-4D71-498B-E8A7-33A289A1C339">
+<Column name="num_doc_identidad" id="6E162F34-6FF7-B07D-17C7-52EDC90B209C">
 <createdBy>alulab14</createdBy>
-<createdTime>2023-05-04 22:41:49 UTC</createdTime>
-<generatorID>9BB6C7F9-0738-8223-85C3-15964F4E7CCA</generatorID>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>C307014C-4038-FDF0-ED71-47F1D9223186</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nombre" id="91C21121-CD2D-D7A4-CCEE-74C395F90A3B">
+<Column name="tipo_documento" id="68848739-47E0-BFF4-9614-72F44D0159A2">
 <createdBy>alulab14</createdBy>
-<createdTime>2023-05-04 22:41:49 UTC</createdTime>
-<generatorID>A21F2961-3F98-A00D-17E5-F50D955D2ECA</generatorID>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>3C278998-CEE5-6F51-9BAB-6E2668C3974A</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,16 +33,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4FDAEC44-77E8-895D-ED91-2559F7DC70E6" name="Centro_de_costos_PK">
+<ind_PK_UK id="F1A37C6D-8CF9-BF16-18FD-597D5B5F0A93" name="Documento_Identidad_PK">
 <createdBy>alulab14</createdBy>
-<createdTime>2023-05-04 22:41:49 UTC</createdTime>
-<generatorID>AE554DD4-F7E1-42F5-689D-981C0DDCFEA2</generatorID>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>3619501A-A953-92CF-6706-1230C0C6EF1E</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="65798D35-4D71-498B-E8A7-33A289A1C339"/>
+<colUsage columnID="6E162F34-6FF7-B07D-17C7-52EDC90B209C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

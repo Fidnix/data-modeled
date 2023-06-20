@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC0A98F4-EA66-DD68-D489-1888A6FD80E6" containerWithKeyObject="AF8CE3F2-2B7A-01B3-27AA-45A03672934A" localFKIndex="5CD780DA-8719-DFCD-D52B-836F2A7BB844" name="emp_pensiones_FK">
-<createdBy>alulab14</createdBy>
-<createdTime>2023-05-04 22:41:49 UTC</createdTime>
-<generatorID>35B4263B-C31A-3494-B9B2-B0BE09314EB3</generatorID>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7F26730A-D7DF-07A6-4DA1-ECA9AF136EE2" containerWithKeyObject="8FD871BB-C69F-5868-8D12-DB0ECAA13D2A" localFKIndex="4DE133BD-4594-09B5-9DBF-7423E4EDAA4D" name="nom_pensiones_FK">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-08 00:09:09 UTC</createdTime>
+<generatorID>87B920E7-0930-39FF-78EB-F4C9B8BFACEA</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <referredTableLongName>Fondo_de_pensiones</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

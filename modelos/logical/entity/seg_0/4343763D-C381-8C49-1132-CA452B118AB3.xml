@@ -68,29 +68,15 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_fondo" id="54B82E05-6065-27FD-B4BA-1016ADE7810C">
-<createdBy>Fidel</createdBy>
-<createdTime>2023-05-05 21:11:32 UTC</createdTime>
-<generatorID>49B19AF0-17B9-1F67-1C0E-1C01684A443D</generatorID>
-<ownerDesignName>modelos</ownerDesignName>
-<engineerTo>
-<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
-</engineerTo>
-<referedAttribute>27374DA7-9EBF-BEF6-4DBC-A296A5A086C1</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A1622215-0DE6-61BE-E836-A3FC3C5F3577" name="Contrato PK">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:23:18 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

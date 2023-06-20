@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FD871BB-C69F-5868-8D12-DB0ECAA13D2A" name="Registro_Nomina">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>869E53E5-E35F-AB82-7893-ADF24959061D</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_registro_nomina" id="225C8F7A-20E1-9D31-A6A5-7F749AF7048D">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>939F1A74-B80A-E654-D192-411A8E5A2D06</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_moneda" id="5DBC1C51-D26A-5322-64D1-1E8E5CD1B05C">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>A8205116-20FD-05E2-A60A-B85151F58E28</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cuenta_bancaria" id="EF4D5877-B513-37FD-7951-D85954D7D0BF">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>48506A38-5821-44F6-1DDC-72F0DB1215B9</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horas_trabajadas" id="78A02C8B-AF49-7BBD-FFF8-F53C16D49213">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>5009DC47-97DC-8677-E12A-BB2647CB66A4</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad_faltas" id="5CB6D3B7-F907-2FEC-DB02-B928A728AE25">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>C688F036-8219-C798-E5D9-D786B72EC02C</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad_tardanzas" id="2BC3DFB4-D7A4-09E1-69F9-E1BD9133CD2D">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>C5675AC6-6DE8-7E6B-83EC-75DC116D1007</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_empleado" id="74A3E998-BA12-42B9-9407-F04DFFA34731">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>14130E53-6E5C-7F00-7141-BADDEDA2803C</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED756146-D58F-0935-3153-DCABFFE9AC25" referredColumn="F7312891-C604-1C1A-2104-768E25CABB79"/>
+</associations>
+</Column>
+<Column name="id_fondo" id="E155F2DD-08CE-110C-C8CA-0B00C98844CA">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-08 00:09:09 UTC</createdTime>
+<generatorID>034C789D-07C0-BA1A-7467-ACDD8BB13309</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F26730A-D7DF-07A6-4DA1-ECA9AF136EE2" referredColumn="2E00D102-BDF8-E08A-AD75-59E38A25BBFD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57A445BA-03E8-1ED5-B9E4-9639B690B5A3" name="Nomina_PK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>695A29B4-39F5-5B5F-EB12-02DBDD8A34B1</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="225C8F7A-20E1-9D31-A6A5-7F749AF7048D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FF0D96E-4FD6-9DA4-A3F9-2762152B9F78" name="Nomina__IDX">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CF6F6940-C558-BCFB-8FA1-6BF827E02F00</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="74A3E998-BA12-42B9-9407-F04DFFA34731"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0B9207B-CCAC-51DD-4330-22CDE1EF0B32" name="Registro_Nomina__IDX">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-08 00:09:09 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>87B920E7-0930-39FF-78EB-F4C9B8BFACEA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E155F2DD-08CE-110C-C8CA-0B00C98844CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DE133BD-4594-09B5-9DBF-7423E4EDAA4D" name="nom_pensiones_FK">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-08 00:09:09 UTC</createdTime>
+<generatorID>87B920E7-0930-39FF-78EB-F4C9B8BFACEA</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E155F2DD-08CE-110C-C8CA-0B00C98844CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04B88C7C-7661-BA44-006E-FEA6FDD18FDB" name="nom_empleado_FK">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-08 00:23:46 UTC</createdTime>
+<generatorID>FC03AD5A-2FF9-1EA2-BDC8-5307E1D1CD77</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74A3E998-BA12-42B9-9407-F04DFFA34731"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

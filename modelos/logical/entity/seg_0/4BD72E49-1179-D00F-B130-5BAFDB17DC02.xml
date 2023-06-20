@@ -41,29 +41,15 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_registro_nomina" id="0BEE8E5F-2D75-EADF-1EFC-C1A1EAD4103E">
-<createdBy>Fidel</createdBy>
-<createdTime>2023-05-05 21:11:13 UTC</createdTime>
-<generatorID>87B920E7-0930-39FF-78EB-F4C9B8BFACEA</generatorID>
-<ownerDesignName>modelos</ownerDesignName>
-<engineerTo>
-<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
-</engineerTo>
-<referedAttribute>939F1A74-B80A-E654-D192-411A8E5A2D06</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A801C1B8-223A-F562-8237-C44A157A9ADA" name="Fondo_de_pensiones PK">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:15:52 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -35,7 +35,11 @@
 <Column name="Tipo" id="2D50E7C7-9D28-EF97-818E-43BB2A43262E">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
-<comment>El tipo de la capacitacion&lt;br/&gt;&apos;N&apos;:normativa&lt;br/&gt;&apos;F:formativa&apos;</comment>
+<comment><![CDATA[El tipo de la capacitacion
+'N':normativa
+'F:formativa']]></comment>
+<commentInRDBMS><![CDATA['F': Formativa (Opcional)
+'N': Normativa (Obligatoria)]]></commentInRDBMS>
 <generatorID>1DE0B1D4-C8BD-1F9C-0478-2E478FCCE2FB</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -49,7 +53,7 @@
 <Column name="Acciones" id="0BCE6EDE-193A-4E0F-6A3E-54ED72A76801">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
-<comment>Describe las actividades del curso</comment>
+<comment><![CDATA[Describe las actividades del curso]]></comment>
 <generatorID>267C7DB9-2BEE-240B-2668-DEE054DBFD0A</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,7 +65,9 @@
 <Column name="modalidad" id="EACBA896-FD65-6DF4-95CA-3A5DEF2DA6BA">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
-<comment>Modalidad de la capacitacion:&lt;br/&gt;&apos;V&apos;:virtual&lt;br/&gt;&apos;P&apos;:presencial</comment>
+<comment><![CDATA[Modalidad de la capacitacion:
+'V':virtual
+'P':presencial]]></comment>
 <generatorID>49B1DBDE-F2AB-BBF1-034B-4294B87DD555</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -86,7 +92,7 @@
 <Column name="Norma" id="5593E925-702B-74E2-362C-80055715D49F">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
-<comment>La norma que lo exigue</comment>
+<comment><![CDATA[La norma que lo exigue]]></comment>
 <generatorID>FFA4CD7B-CBE1-9E7F-F7E8-E3B3318FF2D8</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -99,7 +105,17 @@
 <Column name="Estatus" id="43B32BB4-468F-906C-19B8-29F9994FC936">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
-<comment>El estado de la capacidad:&lt;br/&gt;&apos;P&apos;: proceso&lt;br/&gt;&apos;T&apos;:terminado&lt;br/&gt;&apos;C&apos;:cancelado&lt;br/&gt;&apos;R&apos;:retrasado&lt;br/&gt;&apos;E&apos;:espera </comment>
+<comment><![CDATA[El estado de la capacidad:
+'P': proceso
+'T':terminado
+'C':cancelado
+'R':retrasado
+'E':espera ]]></comment>
+<commentInRDBMS><![CDATA['E': En ejecucion
+'C': Cancelado
+'R': Retrasado
+'A': Aun no ha empezado
+]]></commentInRDBMS>
 <generatorID>ECE44C05-B753-51B5-B17C-72EB48AF8F45</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -107,6 +123,42 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Duracion" id="7E799D00-A368-1420-6B5E-19F434412FF2">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-05-07 23:59:32 UTC</createdTime>
+<generatorID>A865B313-881F-44FE-D5CD-6E754A996424</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="95C6C7FD-CB49-855F-6CF8-8D999AA65777">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-06-17 21:44:52 UTC</createdTime>
+<generatorID>57BBE934-B915-61CE-CCD3-FE410A937531</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fin" id="3F4A553B-D63E-3689-1062-FD3276852182">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-06-17 21:44:52 UTC</createdTime>
+<generatorID>C71199E5-1DC2-F7C9-2571-A5E5B93B36F7</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

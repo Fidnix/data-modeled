@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B1C8EAF-FE90-38A4-8F4A-EEB1F39208CC" name="Examen_medico">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>5174C1B6-AFA3-6B75-C9B3-FD488DC9ABC5</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_examen_medico" id="BAC3179B-B3B4-31F4-6AE7-C107B3DF5861">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>5F613293-4225-EF21-2568-59E43E4C8665</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_examen" id="F60E5546-525E-00AA-B5E8-F3D9C5AEB5BE">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<comment><![CDATA['empo': Examen médico pre-ocupacional
+'emoa': Examen médico ocupacional periódico
+'emor': Examen médico de retiro]]></comment>
+<generatorID>C55097E7-089C-1440-2D7F-8374D205F8DA</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resultado" id="9D85CF96-BEEA-D30C-43D5-C5E0070CD347">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<comment><![CDATA['a': Apto
+'r': Apto con restricciones
+'n': No apto]]></comment>
+<generatorID>C290E1A1-D0EE-3BD7-DE97-FBF0C3AE96F3</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="259E7ABB-C5EB-8A5D-B956-A6F0FD7FF96C">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<comment><![CDATA[Descripcion de la condicion]]></comment>
+<generatorID>F1BF5E4B-4EE3-248B-F06A-83A1B302905B</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fin" id="9CFECF49-22DF-F780-ED0D-B2AA9C8E4F80">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-06-17 21:44:52 UTC</createdTime>
+<generatorID>8516FBE6-5403-9A46-A500-498AE1A0079E</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C360F13-BF37-6DBB-E5C9-C3391B5FD802" name="Examen_medico_PK">
+<createdBy>alulab14</createdBy>
+<createdTime>2023-05-05 23:20:52 UTC</createdTime>
+<generatorID>7DD6D76F-53A4-6B27-784C-903EFF1117AB</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAC3179B-B3B4-31F4-6AE7-C107B3DF5861"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

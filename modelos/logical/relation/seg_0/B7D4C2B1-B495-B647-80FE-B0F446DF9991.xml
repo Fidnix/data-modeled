@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Capactiacion x Cargo" directorySegmentName="seg_0" id="B7D4C2B1-B495-B647-80FE-B0F446DF9991">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Capacitacion x Cargo" directorySegmentName="seg_0" id="B7D4C2B1-B495-B647-80FE-B0F446DF9991">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:27 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
