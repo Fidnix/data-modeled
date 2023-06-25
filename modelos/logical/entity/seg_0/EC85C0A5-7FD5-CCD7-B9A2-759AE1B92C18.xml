@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EC85C0A5-7FD5-CCD7-B9A2-759AE1B92C18" name="Contrato_plazo_indeterminado">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EC85C0A5-7FD5-CCD7-B9A2-759AE1B92C18" name="P Contrato plazo indeterminado">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:25:43 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="tipo_contrato" id="FDF77A4A-945D-B18A-B2EA-6F93A39E3BDC">
+<Attribute name="tipo contrato" id="FDF77A4A-945D-B18A-B2EA-6F93A39E3BDC">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:25:54 UTC</createdTime>
 <commentInRDBMS><![CDATA["v": contrato estblecido verbalmente
@@ -28,7 +28,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>

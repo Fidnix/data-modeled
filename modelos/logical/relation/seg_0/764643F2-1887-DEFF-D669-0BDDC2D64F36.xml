@@ -1,18 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cont Empleado FK" directorySegmentName="seg_0" id="49B19AF0-17B9-1F67-1C0E-1C01684A443D">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="emp_doc_id_FK" directorySegmentName="seg_0" id="764643F2-1887-DEFF-D669-0BDDC2D64F36">
 <createdBy>Fidel</createdBy>
-<createdTime>2023-05-04 02:43:22 UTC</createdTime>
+<createdTime>2023-06-25 01:05:44 UTC</createdTime>
+<generatorID>6D287C7A-36C3-E189-53E4-A940F5FFC62D</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <engineerTo>
 <item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
 </engineerTo>
-<sourcePk>A1622215-0DE6-61BE-E836-A3FC3C5F3577</sourcePk>
-<targetPk>FC03AD5A-2FF9-1EA2-BDC8-5307E1D1CD77</targetPk>
+<sourcePk>3619501A-A953-92CF-6706-1230C0C6EF1E</sourcePk>
+<dominantRole>99636195-60AF-F4B9-5D1A-BDF12587AEDE</dominantRole>
 <identifying>false</identifying>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>4343763D-C381-8C49-1132-CA452B118AB3</sourceEntity>
+<sourceEntity>99636195-60AF-F4B9-5D1A-BDF12587AEDE</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
 <targetEntity>72577268-D901-15F1-EDD0-B3322112149C</targetEntity>
 <transferable>true</transferable>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E2A08BE4-A64D-457D-B69B-39AA390D16F5" name="Marcacion">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E2A08BE4-A64D-457D-B69B-39AA390D16F5" name="P Marcacion">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:47:09 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_marcaciones" id="EE47895E-5AF8-FF26-503C-3D421F128B11">
+<Attribute name="id marcaciones" id="EE47895E-5AF8-FF26-503C-3D421F128B11">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:47:17 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypeSize>15 BYTE</dataTypeSize>
 <ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_Marcacion" id="A334C1F7-FA46-AF8C-FBA1-D6139A1C622D">
+<Attribute name="fecha Marcacion" id="A334C1F7-FA46-AF8C-FBA1-D6139A1C622D">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:51:21 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -40,7 +40,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Hora_marcacion" id="73B6FADF-6AB7-29F9-15DB-6E4E4D5D3D4D">
+<Attribute name="Hora marcacion" id="73B6FADF-6AB7-29F9-15DB-6E4E4D5D3D4D">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:52:27 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -52,7 +52,7 @@
 <logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Tipo_marcacion" id="A4DD151C-D3A9-F43C-216D-CE95D8D44C3F">
+<Attribute name="Tipo marcacion" id="A4DD151C-D3A9-F43C-216D-CE95D8D44C3F">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:52:51 UTC</createdTime>
 <commentInRDBMS><![CDATA['E': Entrada
@@ -69,7 +69,7 @@
 <dataTypeSize>1 BYTE</dataTypeSize>
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Estado_marcacion" id="81CE0A05-35EE-E16C-416F-3BA3A2EC624F">
+<Attribute name="Estado marcacion" id="81CE0A05-35EE-E16C-416F-3BA3A2EC624F">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:53:27 UTC</createdTime>
 <comment><![CDATA[Indica el estado de marca:
@@ -91,7 +91,7 @@
 <dataTypeSize>1 BYTE</dataTypeSize>
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cod_empleado" id="87875FCB-09B8-771F-0845-5EB1CAE32160">
+<Attribute name="id empleado" id="87875FCB-09B8-771F-0845-5EB1CAE32160">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-05 20:47:32 UTC</createdTime>
 <generatorID>540FD250-D93A-055C-C335-C19B5D8E8C9D</generatorID>
@@ -108,7 +108,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9805DB83-7148-3010-C7BB-D33D7CAEFBA7" name="Marcaciones PK">
+<identifier id="9805DB83-7148-3010-C7BB-D33D7CAEFBA7" name="Marcacion_PK">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:51:20 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>

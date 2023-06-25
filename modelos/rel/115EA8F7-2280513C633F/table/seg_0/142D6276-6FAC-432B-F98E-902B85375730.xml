@@ -68,11 +68,9 @@
 'F':si faltó
 ']]></comment>
 <commentInRDBMS><![CDATA['p': Puntual
-'t': Tarde
-'f': Falta]]></commentInRDBMS>
+'t': Tarde]]></commentInRDBMS>
 <generatorID>81CE0A05-35EE-E16C-416F-3BA3A2EC624F</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1973C5B8-C531-89A4-0BD1-88F7E1DE01F8" name="Centro_de_costos">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1973C5B8-C531-89A4-0BD1-88F7E1DE01F8" name="P Centro de costos">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:16:41 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_centro_de_costos" id="9BB6C7F9-0738-8223-85C3-15964F4E7CCA">
+<Attribute name="id centro de costos" id="9BB6C7F9-0738-8223-85C3-15964F4E7CCA">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:16:51 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -43,7 +43,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="AE554DD4-F7E1-42F5-689D-981C0DDCFEA2" name="Centro_de_costos PK">
+<identifier id="AE554DD4-F7E1-42F5-689D-981C0DDCFEA2" name="Centro_de_costos_PK">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:17:09 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>

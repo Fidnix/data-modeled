@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72577268-D901-15F1-EDD0-B3322112149C" name="Empleado">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72577268-D901-15F1-EDD0-B3322112149C" name="P Empleado">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:08:15 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cod_empleado" id="258E084C-C1B0-5C5D-E74D-008EF3DF2614">
+<Attribute name="id empleado" id="258E084C-C1B0-5C5D-E74D-008EF3DF2614">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:09:04 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -41,7 +41,7 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="apellido_paterno" id="5129244C-EF6A-182E-A8FF-AE13E195974D">
+<Attribute name="apellido paterno" id="5129244C-EF6A-182E-A8FF-AE13E195974D">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:11:04 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -54,7 +54,7 @@
 <dataTypeSize>20 BYTE</dataTypeSize>
 <ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="apellido_materno" id="90ED2AC7-7DFE-BEB8-2443-E57E22FFF86F">
+<Attribute name="apellido materno" id="90ED2AC7-7DFE-BEB8-2443-E57E22FFF86F">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:13:08 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -93,7 +93,7 @@
 <dataTypeSize>16</dataTypeSize>
 <ownDataTypeParameters>16,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="telefono_emergencia" id="6004F083-A957-273E-AB0A-925563F6B729">
+<Attribute name="telefono emergencia" id="6004F083-A957-273E-AB0A-925563F6B729">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:14:33 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -106,7 +106,7 @@
 <dataTypeSize>16</dataTypeSize>
 <ownDataTypeParameters>16,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="correo_electronico" id="EEF3A5D4-5F95-1481-2553-D707ADA9A2DA">
+<Attribute name="correo electronico" id="EEF3A5D4-5F95-1481-2553-D707ADA9A2DA">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:14:54 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -119,7 +119,7 @@
 <dataTypeSize>40 BYTE</dataTypeSize>
 <ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_cargo" id="64C00FEE-921B-3CBC-69ED-B724CD08DA8C">
+<Attribute name="id cargo" id="64C00FEE-921B-3CBC-69ED-B724CD08DA8C">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:45:12 UTC</createdTime>
 <generatorID>F569FE44-4B72-5472-E303-1441003A839F</generatorID>
@@ -134,7 +134,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_centro_de_costos" id="9C721683-544D-2134-823A-7DB4FCBAE138">
+<Attribute name="id centro de costos" id="9C721683-544D-2134-823A-7DB4FCBAE138">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:49:03 UTC</createdTime>
 <generatorID>8F249AAF-BE68-91B1-BC55-D07833AD2120</generatorID>
@@ -149,7 +149,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_fondo" id="27374DA7-9EBF-BEF6-4DBC-A296A5A086C1">
+<Attribute name="id fondo" id="27374DA7-9EBF-BEF6-4DBC-A296A5A086C1">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 02:17:06 UTC</createdTime>
 <generatorID>35B4263B-C31A-3494-B9B2-B0BE09314EB3</generatorID>
@@ -174,10 +174,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_registro_nomina" id="BA0F517D-951C-DE00-EB45-6683973C74E2">
+<Attribute name="id registro nomina" id="BA0F517D-951C-DE00-EB45-6683973C74E2">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-05 20:53:08 UTC</createdTime>
 <generatorID>CF6F6940-C558-BCFB-8FA1-6BF827E02F00</generatorID>
@@ -190,12 +190,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="num_doc_identidad" id="CD1F4DD7-CF5B-C2A4-DD3C-173A1A94E220">
+<Attribute name="num doc identidad" id="CD1F4DD7-CF5B-C2A4-DD3C-173A1A94E220">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-05 23:34:07 UTC</createdTime>
-<generatorID>5F225231-9375-E9B5-8D4C-75DED9289228</generatorID>
+<generatorID>764643F2-1887-DEFF-D669-0BDDC2D64F36</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <engineerTo>
 <item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
@@ -206,7 +206,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_contrato" id="978F49CC-BAB5-27B3-59E4-73B82E06FA9E">
+<Attribute name="id contrato" id="978F49CC-BAB5-27B3-59E4-73B82E06FA9E">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-07 23:37:08 UTC</createdTime>
 <generatorID>49B19AF0-17B9-1F67-1C0E-1C01684A443D</generatorID>
@@ -219,9 +219,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_examen_medico" id="BBEC06F3-3CB6-A248-FE31-B65EB09F8BD7">
+<Attribute name="id examen medico1" id="BBEC06F3-3CB6-A248-FE31-B65EB09F8BD7">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-08 00:03:09 UTC</createdTime>
 <generatorID>6626F11E-4C05-99B2-A88B-B29F2EFA9B75</generatorID>
@@ -234,6 +234,35 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id examen medico" id="23947D11-DE8D-B61D-ACDF-F4E9BAE90E79">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-06-25 01:05:44 UTC</createdTime>
+<generatorID>618B1085-6FE5-A267-3C88-44F98C531866</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<referedAttribute>5F613293-4225-EF21-2568-59E43E4C8665</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num doc identidad" id="B8CC03A4-B1A0-7F38-1CD6-701EFFABC3A0">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-06-25 01:05:44 UTC</createdTime>
+<generatorID>5F225231-9375-E9B5-8D4C-75DED9289228</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<referedAttribute>C307014C-4038-FDF0-ED71-47F1D9223186</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

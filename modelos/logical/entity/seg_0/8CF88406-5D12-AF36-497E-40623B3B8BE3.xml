@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CF88406-5D12-AF36-497E-40623B3B8BE3" name="Encargado_actividades">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CF88406-5D12-AF36-497E-40623B3B8BE3" name="P Encargado actividades">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-05 21:06:21 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_encargado" id="28C35300-754F-9C77-9973-BFCAADD5ED12">
+<Attribute name="id encargado" id="28C35300-754F-9C77-9973-BFCAADD5ED12">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-05 21:06:39 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cod_empleado" id="01BDA801-477E-A8C1-D91D-B9D51F19E5D0">
+<Attribute name="id empleado" id="01BDA801-477E-A8C1-D91D-B9D51F19E5D0">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-05 21:08:27 UTC</createdTime>
 <generatorID>25D78B0B-BDDF-7A68-5820-4D48957251AA</generatorID>
@@ -43,7 +43,7 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_actividad" id="6B274BFC-4F75-235F-0913-46F0D5F7DA98">
+<Attribute name="id actividad" id="6B274BFC-4F75-235F-0913-46F0D5F7DA98">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-05 23:44:29 UTC</createdTime>
 <generatorID>24F1D38D-0EBE-93FC-608A-BA70908D765F</generatorID>
@@ -56,11 +56,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B79C16F6-33F3-866A-EAF0-FB50A58FA843" name="Encargado_actividades PK">
+<identifier id="B79C16F6-33F3-866A-EAF0-FB50A58FA843" name="Encargado_actividades_PK">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-05 21:06:57 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>

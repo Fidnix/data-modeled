@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4343763D-C381-8C49-1132-CA452B118AB3" name="Contrato">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4343763D-C381-8C49-1132-CA452B118AB3" name="P Contrato">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:21:17 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_contrato" id="58C7242E-D2F3-D6AC-8065-DD58CCE38691">
+<Attribute name="id contrato" id="58C7242E-D2F3-D6AC-8065-DD58CCE38691">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:21:38 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_inicio" id="C71B1104-9CBE-BFE0-1CD9-86C28D8DDF22">
+<Attribute name="fecha inicio" id="C71B1104-9CBE-BFE0-1CD9-86C28D8DDF22">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:23:33 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -53,7 +53,7 @@
 <dataTypeSize>1 BYTE</dataTypeSize>
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cod_empleado" id="E85A83A9-B774-B693-3A32-E9389220802E">
+<Attribute name="id empleado" id="E85A83A9-B774-B693-3A32-E9389220802E">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:45:34 UTC</createdTime>
 <generatorID>49B19AF0-17B9-1F67-1C0E-1C01684A443D</generatorID>
@@ -67,6 +67,37 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id cargo" id="A4D7CAFB-F77D-35AA-BD28-69A21523A5F2">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-06-25 01:05:44 UTC</createdTime>
+<generatorID>1CE507E8-38C9-331C-1FC2-F987D02B9A5F</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<referedAttribute>33C3D08A-79BE-7A24-4EDD-7B47E8461C40</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo contrato" id="5C6FA1E2-0ED7-A56C-4668-89D6154155CD">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-06-25 01:05:44 UTC</createdTime>
+<commentInRDBMS><![CDATA['f': contrato de plazo fijo
+'i': contrato de plazo indeterminado]]></commentInRDBMS>
+<generatorID>B3B4C186-0B7E-AEE0-F7E7-B32FA079463F</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

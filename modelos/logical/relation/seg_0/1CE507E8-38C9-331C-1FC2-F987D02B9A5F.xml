@@ -1,19 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="emp pensiones FK" directorySegmentName="seg_0" id="35B4263B-C31A-3494-B9B2-B0BE09314EB3">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cont_Cargo_FK" directorySegmentName="seg_0" id="1CE507E8-38C9-331C-1FC2-F987D02B9A5F">
 <createdBy>Fidel</createdBy>
-<createdTime>2023-05-04 02:17:06 UTC</createdTime>
+<createdTime>2023-06-25 01:05:44 UTC</createdTime>
+<generatorID>3EFC89F9-4A18-FAF5-5818-D70B01E3EF0D</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <engineerTo>
 <item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
 </engineerTo>
-<sourcePk>A801C1B8-223A-F562-8237-C44A157A9ADA</sourcePk>
+<sourcePk>714D7246-6DE9-EFB7-B7BD-A971157A9BEF</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>4BD72E49-1179-D00F-B130-5BAFDB17DC02</sourceEntity>
+<sourceEntity>8177A4A2-255B-1154-7D77-B57FAF4FEB54</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>72577268-D901-15F1-EDD0-B3322112149C</targetEntity>
+<targetEntity>4343763D-C381-8C49-1132-CA452B118AB3</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

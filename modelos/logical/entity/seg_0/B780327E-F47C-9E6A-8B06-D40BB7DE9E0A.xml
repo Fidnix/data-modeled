@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B780327E-F47C-9E6A-8B06-D40BB7DE9E0A" name="Contrato_plazo_fijo">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B780327E-F47C-9E6A-8B06-D40BB7DE9E0A" name="P Contrato plazo fijo">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:24:42 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>
@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="fecha_fin" id="B3E4CA8E-132F-64B4-06F6-B7C8B4A4C147">
+<Attribute name="fecha fin" id="B3E4CA8E-132F-64B4-06F6-B7C8B4A4C147">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-05-04 01:24:57 UTC</createdTime>
 <ownerDesignName>modelos</ownerDesignName>

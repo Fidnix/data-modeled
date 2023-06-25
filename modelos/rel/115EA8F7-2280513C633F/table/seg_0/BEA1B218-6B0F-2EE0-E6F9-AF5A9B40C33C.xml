@@ -77,18 +77,6 @@
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Mes_inicio" id="2F11146C-539F-47EF-F714-DCFABDC5225F">
-<createdBy>alulab14</createdBy>
-<createdTime>2023-05-04 22:41:49 UTC</createdTime>
-<generatorID>838C2B18-52EF-749B-2FAC-C8208B97D2FF</generatorID>
-<ownerDesignName>modelos</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Norma" id="5593E925-702B-74E2-362C-80055715D49F">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
@@ -142,7 +130,6 @@
 <createdTime>2023-06-17 21:44:52 UTC</createdTime>
 <generatorID>57BBE934-B915-61CE-CCD3-FE410A937531</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -154,7 +141,6 @@
 <createdTime>2023-06-17 21:44:52 UTC</createdTime>
 <generatorID>C71199E5-1DC2-F7C9-2571-A5E5B93B36F7</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>

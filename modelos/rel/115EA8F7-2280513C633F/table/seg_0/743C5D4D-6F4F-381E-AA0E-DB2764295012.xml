@@ -33,6 +33,18 @@
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="monto" id="CF0B9BAB-F11E-848B-EF99-EE80516FA13B">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-06-23 22:05:18 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E30687A5-A443-8603-7ADF-89447E925D0F" name="Fondo_de_pensiones_PK">

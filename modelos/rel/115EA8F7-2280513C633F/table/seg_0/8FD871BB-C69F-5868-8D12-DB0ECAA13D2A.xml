@@ -69,7 +69,7 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cantidad_tardanzas" id="2BC3DFB4-D7A4-09E1-69F9-E1BD9133CD2D">
+<Column name="hora_tardanzas" id="2BC3DFB4-D7A4-09E1-69F9-E1BD9133CD2D">
 <createdBy>alulab14</createdBy>
 <createdTime>2023-05-05 23:20:52 UTC</createdTime>
 <generatorID>C5675AC6-6DE8-7E6B-83EC-75DC116D1007</generatorID>
@@ -79,6 +79,18 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sueldo" id="9DE244FC-B3EE-E7E5-D028-2393FD837655">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-06-21 14:35:53 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="id_empleado" id="74A3E998-BA12-42B9-9407-F04DFFA34731">

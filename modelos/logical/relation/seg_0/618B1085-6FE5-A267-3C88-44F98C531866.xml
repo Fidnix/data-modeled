@@ -1,17 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="emp centro de costos FK" directorySegmentName="seg_0" id="8F249AAF-BE68-91B1-BC55-D07833AD2120">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="emp_examen_medico_FK" directorySegmentName="seg_0" id="618B1085-6FE5-A267-3C88-44F98C531866">
 <createdBy>Fidel</createdBy>
-<createdTime>2023-05-04 01:49:03 UTC</createdTime>
+<createdTime>2023-06-25 01:05:44 UTC</createdTime>
+<generatorID>9C5E068F-854F-54E6-1D0C-8E32A8BFB230</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
 <engineerTo>
 <item key="115EA8F7-72F2-CEE9-8074-2280513C633F" value="true"/>
 </engineerTo>
-<sourcePk>AE554DD4-F7E1-42F5-689D-981C0DDCFEA2</sourcePk>
+<sourcePk>7DD6D76F-53A4-6B27-784C-903EFF1117AB</sourcePk>
 <identifying>false</identifying>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>1973C5B8-C531-89A4-0BD1-88F7E1DE01F8</sourceEntity>
+<sourceEntity>5174C1B6-AFA3-6B75-C9B3-FD488DC9ABC5</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>72577268-D901-15F1-EDD0-B3322112149C</targetEntity>
 <transferable>true</transferable>
