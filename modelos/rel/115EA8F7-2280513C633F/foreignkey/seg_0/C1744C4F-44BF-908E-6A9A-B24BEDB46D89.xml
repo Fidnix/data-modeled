@@ -4,7 +4,7 @@
 <createdTime>2023-05-04 22:41:49 UTC</createdTime>
 <generatorID>5B39D4AA-9307-6519-FAED-9D5DC91C23AA</generatorID>
 <ownerDesignName>modelos</ownerDesignName>
-<referredTableLongName>Contrato</referredTableLongName>
+<referredTableLongName>P_Contrato</referredTableLongName>
 <arc>CF56B4AE-F969-E033-9D89-F0D204519780</arc>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>42907C15-5DE9-8E08-A932-5D1571D4F28C</referredTableID>
@@ -14,6 +14,6 @@
 <refColNames>id_contrato</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
-<discriminatorValue>i</discriminatorValue>
+<discriminatorValue>I</discriminatorValue>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>

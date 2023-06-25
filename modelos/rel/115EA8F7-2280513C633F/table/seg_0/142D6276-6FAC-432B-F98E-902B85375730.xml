@@ -39,8 +39,9 @@
 <ownerDesignName>modelos</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Tipo_marcacion" id="66E40448-1C93-43FE-849B-9A76876900C1">
@@ -106,7 +107,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="97D12B13-AFB1-C5DB-1327-E512B2B07AFF"/>
-<colUsage columnID="85F82F30-EE39-9BAA-1A8B-1D8D3404B32E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="2F7E5AA5-88FD-E818-ED6C-D983AC79C0B4" name="marc_empleado_FK">

@@ -76,6 +76,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="P_Empleado_id_empleado" id="7A1364C7-BB39-1047-88A3-A4A24C89590A">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-06-25 18:15:26 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C75B74E9-9700-D5D9-D4BE-47ADE631D1A9" referredColumn="F7312891-C604-1C1A-2104-768E25CABB79"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="2C360F13-BF37-6DBB-E5C9-C3391B5FD802" name="Examen_medico_PK">
@@ -88,6 +103,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BAC3179B-B3B4-31F4-6AE7-C107B3DF5861"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E45C8C6-8EF8-A1FF-F1CB-55758F807BFE" name="med_empleado_FK">
+<createdBy>Fidel</createdBy>
+<createdTime>2023-06-25 18:15:26 UTC</createdTime>
+<generatorID>FC03AD5A-2FF9-1EA2-BDC8-5307E1D1CD77</generatorID>
+<ownerDesignName>modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A1364C7-BB39-1047-88A3-A4A24C89590A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

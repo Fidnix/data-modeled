@@ -113,18 +113,6 @@
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Duracion" id="7E799D00-A368-1420-6B5E-19F434412FF2">
-<createdBy>Fidel</createdBy>
-<createdTime>2023-05-07 23:59:32 UTC</createdTime>
-<generatorID>A865B313-881F-44FE-D5CD-6E754A996424</generatorID>
-<ownerDesignName>modelos</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 BYTE</dataTypeSize>
-<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="fecha_inicio" id="95C6C7FD-CB49-855F-6CF8-8D999AA65777">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-06-17 21:44:52 UTC</createdTime>

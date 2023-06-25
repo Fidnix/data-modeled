@@ -18,7 +18,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="253FDD1C-109F-196C-EB5A-2C468BDF3D00" referredColumn="8EDDDDB7-A076-701F-353A-0E2EC0F38DEA"/>

@@ -78,8 +78,8 @@
 <Column name="tipo_contrato" id="B3B4C186-0B7E-AEE0-F7E7-B32FA079463F">
 <createdBy>Fidel</createdBy>
 <createdTime>2023-06-18 16:43:44 UTC</createdTime>
-<commentInRDBMS><![CDATA['f': contrato de plazo fijo
-'i': contrato de plazo indeterminado]]></commentInRDBMS>
+<commentInRDBMS><![CDATA['F': contrato de plazo fijo
+'I': contrato de plazo indeterminado]]></commentInRDBMS>
 <ownerDesignName>modelos</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

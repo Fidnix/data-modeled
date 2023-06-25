@@ -114,7 +114,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -130,7 +130,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -146,27 +146,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="EC0A98F4-EA66-DD68-D489-1888A6FD80E6" referredColumn="2E00D102-BDF8-E08A-AD75-59E38A25BBFD"/>
-</associations>
-</Column>
-<Column name="id_examen_medico" id="F4FF8917-20C7-C26D-20BD-DCE863570E9B">
-<createdBy>alulab14</createdBy>
-<createdTime>2023-05-05 23:20:52 UTC</createdTime>
-<generatorID>3DAF4512-90FB-9EA8-7CF1-D3817D4C8489</generatorID>
-<ownerDesignName>modelos</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 BYTE</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="9C5E068F-854F-54E6-1D0C-8E32A8BFB230" referredColumn="BAC3179B-B3B4-31F4-6AE7-C107B3DF5861"/>
 </associations>
 </Column>
 <Column name="Vigencia" id="417D5BC7-9A66-D7D2-2302-053A899B50C3">
@@ -189,6 +173,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -252,17 +237,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9C8D6CB3-1064-9319-280D-F39B3235D43E"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="766EB4AB-0AAB-9537-25C7-6AF1C3E32198" name="emp_examen_medico_FK">
-<createdBy>Fidel</createdBy>
-<createdTime>2023-05-08 00:24:36 UTC</createdTime>
-<generatorID>7DD6D76F-53A4-6B27-784C-903EFF1117AB</generatorID>
-<ownerDesignName>modelos</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="F4FF8917-20C7-C26D-20BD-DCE863570E9B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="9ABCCB2A-80D2-FA57-F742-4B86D18395BF" name="emp_doc_id_FK">
