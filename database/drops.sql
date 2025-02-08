@@ -1,0 +1,19 @@
+--Drops
+drop table p_capacitacion_x_cargo;
+drop table p_empleadoXactividad;
+drop table p_empleadoXhorario;
+drop table p_encargado_actividades;
+drop table p_horario;
+drop table p_marcacion;
+drop table p_registro_nomina;
+drop table p_actividad;
+drop table p_capacitacion;
+drop table p_contrato_plazo_indeterminado;
+drop table p_contrato_plazo_fijo;
+drop table p_contrato;
+drop table p_examen_medico;
+drop table p_empleado;
+drop table p_cargo;
+drop table p_documento_identidad;
+drop table p_fondo_de_pensiones;
+drop table p_centro_de_costos;
