@@ -1,4 +1,8 @@
-# Modelo lógico y relacional para una base de datos para no bikear BD
+# Modelo de nuestro proyecto pasado de base de datos
 
-* Descarguenlo en un archivo .zip. Si tienen Git, es mejor clonarlo directamente, de esa forma no tienen que descomprimir nada y podrán obtener actualizaciones fácilemente
-* Dirigirse al sql data modeler > archivo > abrir. Abren el archivo .dmd
+## Componentes del proyecto
+
+- design: Contiene los archivos para editar el modelo en sql-developer
+- doc: Contiene los modelos exportados a pdf
+- database: Código sql para usar en las bases de datos
+- dashboard: Un dashboard a partir de los datos
