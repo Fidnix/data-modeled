@@ -197,7 +197,7 @@ CREATE TABLE p_horario (
 );
 
 COMMENT ON COLUMN p_horario.turno_horario IS
-    '"m": mañana
+    '"m": maï¿½ana
 "t": tarde
 "n": noche';
 
@@ -240,6 +240,17 @@ CREATE UNIQUE INDEX nomina__idx ON
     p_registro_nomina (
         id_empleado
     ASC );
+
+CREATE TABLE RETIRADOS(
+    ID_EMPLEADO VARCHAR2(10 BYTE),
+    NOMBRE VARCHAR2(30 BYTE),
+    APELLIDO_PATERNO VARCHAR2(30 BYTE),
+    APELLIDO_MATERNO VARCHAR2(30 BYTE),
+    TELEFONO VARCHAR2(16 BYTE),
+    CORREO_ELECTRONICO VARCHAR2(40 BYTE),
+    CARGO VARCHAR2(50 BYTE),
+    NUM_DOC NUMBER
+);
 
 ALTER TABLE p_registro_nomina ADD CONSTRAINT nomina_pk PRIMARY KEY ( id_registro_nomina );
 
